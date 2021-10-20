@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="47" viewBox="0 0 46 47">
+  <g id="linkedin" transform="translate(-960 -3964)">
+    <g id="Rectangle_23" data-name="Rectangle 23" transform="translate(960 3964)" fill="none" stroke="#eff6f6" stroke-width="1">
+      <rect width="46" height="47" rx="23" stroke="none"/>
+      <rect x="0.5" y="0.5" width="45" height="46" rx="22.5" fill="none"/>
+    </g>
+    <g id="XMLID_801_" transform="translate(973 3975)">
+      <path id="XMLID_802_" d="M9.564,99.73H5.272a.345.345,0,0,0-.345.345v13.788a.345.345,0,0,0,.345.345H9.564a.345.345,0,0,0,.345-.345V100.075A.345.345,0,0,0,9.564,99.73Z" transform="translate(-4.587 -92.876)" fill="#e9f1ff"/>
+      <path id="XMLID_803_" d="M2.832.341A2.83,2.83,0,1,0,5.662,3.17,2.834,2.834,0,0,0,2.832.341Z" transform="translate(0 -0.341)" fill="#e9f1ff"/>
+      <path id="XMLID_804_" d="M114.747,94.761a5.041,5.041,0,0,0-3.771,1.583v-.9a.345.345,0,0,0-.345-.345h-4.11a.345.345,0,0,0-.345.345v13.788a.345.345,0,0,0,.345.345H110.8a.345.345,0,0,0,.345-.345v-6.822c0-2.3.624-3.194,2.227-3.194,1.745,0,1.884,1.436,1.884,3.313v6.7a.345.345,0,0,0,.345.345h4.284a.345.345,0,0,0,.345-.345v-7.563C120.232,98.255,119.581,94.761,114.747,94.761Z" transform="translate(-98.854 -88.25)" fill="#e9f1ff"/>
+    </g>
+  </g>
+</svg>
