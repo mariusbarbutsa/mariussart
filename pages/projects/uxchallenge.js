@@ -13,7 +13,7 @@ export default class UXChallenge {
               <img class="project-illustration" src="./images/icons/m-illustration.svg" alt="illustration">
               <p class="project-label">This challenge was a 3-day event with 32 solvers, 8 companies and 8 mentors. We went through all 5 phases of a Design Sprint in just 3 days. Our problem statement was: How can a user sell multiple items fast under one listing, while still keeping the announce informative?</p>
             </div>
-            <img class="project-gif" src="./images/wallpaper-convergence.jpg" alt="project gif">
+            <img class="project-gif" src="./images/project/design/uxchallenge/uxpresentation.gif" alt="project gif">
        </div>
       
 
@@ -30,13 +30,11 @@ export default class UXChallenge {
              <p class="project-title">Design Process</p>
              <p p class = "project-info" >For the design we improved the color palette, and changed the menu of the present Swibbid app. When it comes to new stuff, we focused on maintaining the existing "design guide" while adding some new features, such as button, field and items styling.</p>
             </div>
-            <div class="projects-design">
-            <div class="projects-design-row" data-aos="zoom-in-right">
+            <div class="projects-design" data-aos="zoom-in">
+            <div class="projects-multipics">
             <img class="project-image-04" src="./images/project/design/uxchallenge/uxchallenge-mobile-01.jpg" alt="mockup">
             <img class="project-image-04" src="./images/project/design/uxchallenge/uxchallenge-mobile-02.jpg" alt="mockup">
             <img class="project-image-04" src="./images/project/design/uxchallenge/uxchallenge-mobile-03.jpg" alt="mockup">
-            </div>
-             <div class="projects-design-row" data-aos="zoom-in-left">
             <img class="project-image-04" src="./images/project/design/uxchallenge/uxchallenge-mobile-04.jpg" alt="mockup">
             <img class="project-image-04" src="./images/project/design/uxchallenge/uxchallenge-mobile-05.jpg" alt="mockup">
             <img class="project-image-04" src="./images/project/design/uxchallenge/uxchallenge-mobile-06.jpg" alt="mockup">
@@ -50,8 +48,8 @@ export default class UXChallenge {
     
 
         <div class="navigation-arrows">
-         <a class="label-arrow"  href="#webdesign" target="_blank"><img class="arrow rotate180" src="./images/icons/right-arrow.svg" alt="right-arrow"> <p class="label-description">&nbsp;web design</p></a>
-         <a class="label-arrow"  href="#grdesign" target="_blank"><p class="label-description">graphic design</p> <img class="arrow" src="./images/icons/right-arrow.svg" alt="right-arrow"></a>
+         <a class="label-arrow"  href="#uxui" onclick="scrollToTop()" ><img class="arrow rotate180" src="./images/icons/right-arrow.svg" alt="right-arrow"> <p class="label-description">&nbsp;ux/ui project</p></a>
+         <a class="label-arrow"  href="#sleepbuds" onclick="scrollToTop()" ><p class="label-description">sleepbuds</p> <img class="arrow" src="./images/icons/right-arrow.svg" alt="right-arrow"></a>
         </div>
         </div>
       </section>

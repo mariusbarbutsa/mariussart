@@ -11,9 +11,9 @@ export default class FrontloberneProject {
              <p p class = "project-title" > GROUP EXAM PROJECT: FRONTLOBERNE</p>
               <p class="project-label label"> Exam Project 2nd Sem. Spring 2021 - Business Academy Aarhus</p>
               <img class="project-illustration" src="./images/icons/m-illustration.svg" alt="illustration">
-              <p class="project-label">Since 1989 when Frontløberne, an open creative space for young culture creators and entrepreneurs has been founded, the cultural scene of Aarhus has been changed! Their enthusiasm to be the voice of youth culture and provide a place where everyone is welcome to contribute in cultural aspects motivated us to reach out to them and learn more. Therefore, we created a digital solution for them.</p>
+              <p class="project-label">Frontløberne is an open creative space for young culture creators and entrepreneurs. Their enthusiasm to be the voice of youth culture and provide a place where everyone is welcome to contribute in cultural aspects motivated us to reach out to them and learn more. And we created a digital solution for them.</p>
             </div>
-            <img class="project-gif" src="./images/wallpaper-convergence.jpg" alt="project gif">
+            <img class="project-gif" src="./images/project/design/frontloberne/presentation.gif" alt="project gif">
        </div>
       
 
@@ -44,13 +44,13 @@ export default class FrontloberneProject {
              <div div class = "project-box-secondary" data-aos = "zoom-in" >
              <p class="project-title">Prototypes</p>
              <p class="project-info">Our final prototype is definitely not flawless, but we tried to make it as similar to the mockups as possible, so that the users can actually use it on a daily basis, both on mobile and desktop.</p>
-             <p class="links"><a  target="_blank" class="red" href="https://xd.adobe.com/view/82345914-b3d3-406f-8686-9d8cea83adf2-d767/">ADOBE XD MOCKUPS</a> / <a target="_blank" class="red" href="./prototypes/frontloberne/index.html">WORKING PROTOTYPE</a></p>
+             <p class="links"><a  target="_blank" class="red" href="https://xd.adobe.com/view/82345914-b3d3-406f-8686-9d8cea83adf2-d767/">ADOBE XD MOCKUPS</a> / <a target="_blank" class="red" href="http://frontloberne.mariussart.com">WORKING PROTOTYPE</a></p>
              </div>
     
 
         <div class="navigation-arrows">
-         <a class="label-arrow"  href="#webdesign" target="_blank"><img class="arrow rotate180" src="./images/icons/right-arrow.svg" alt="right-arrow"> <p class="label-description">&nbsp;web design</p></a>
-         <a class="label-arrow"  href="#grdesign" target="_blank"><p class="label-description">graphic design</p> <img class="arrow" src="./images/icons/right-arrow.svg" alt="right-arrow"></a>
+         <a class="label-arrow"  href="#webapp" onclick="scrollToTop()"><img class="arrow rotate180" src="./images/icons/right-arrow.svg" alt="right-arrow"> <p class="label-description">&nbsp;web app</p></a>
+         <a class="label-arrow"  href="#uxui" onclick="scrollToTop()" ><p class="label-description">ux/ui project</p> <img class="arrow" src="./images/icons/right-arrow.svg" alt="right-arrow"></a>
         </div>
         </div>
       </section>

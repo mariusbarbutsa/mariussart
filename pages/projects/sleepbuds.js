@@ -13,7 +13,7 @@ export default class SleepBudsProject {
               <img class="project-illustration" src="./images/icons/m-illustration.svg" alt="illustration">
               <p class="project-label">For this exam project I have chosen to create a website for the Bose company, more specifically for the Bose Sleep Buds, a type of earphones they sell for customers that encounter problems with their sleep schedule, stress, insomnia, or different noises such as neighbors’ fuss. Also, these earphones are unique, because they do not stream music, podcasts or anything else as the usual earphones do, they only stream the content from the Bose Sleep App. They are special, innovative and worth having a website about them.</p>
             </div>
-            <img class="project-gif" src="./images/wallpaper-convergence.jpg" alt="project gif">
+            <img class="project-gif" src="./images/project/design/sleepbuds/bosepresentation.gif" alt="project gif">
        </div>
       
 
@@ -44,13 +44,13 @@ export default class SleepBudsProject {
              <div div class = "project-box-secondary" data-aos = "zoom-in" >
              <p class="project-title">Prototypes</p>
              <p class="project-info">I tried to make this solution concise, good looking but at the same time useful for the customers. If talking about improvements, I could work more on real time experience design (text should be comfortable for users to read), on research (focus more on the solution rather than on product), on coding (learning more of the syntaxis).</p>
-             <p class="links"><a target="_blank" class="red" href="https://xd.adobe.com/view/131d37ce-d8bf-4abe-bbd9-38c7c1027106-464e/">ADOBE XD MOCKUPS</a> / <a  target="_blank"class="red" href="./prototypes/sleepbuds/index.html">WORKING PROTOTYPE</a></p>
+             <p class="links"><a target="_blank" class="red" href="https://xd.adobe.com/view/131d37ce-d8bf-4abe-bbd9-38c7c1027106-464e/">ADOBE XD MOCKUPS</a> / <a  target="_blank"class="red" href="http://sleepbuds.mariussart.com">WORKING PROTOTYPE</a></p>
              </div>
     
 
         <div class="navigation-arrows">
-         <a class="label-arrow"  href="#webdesign" target="_blank"><img class="arrow rotate180" src="./images/icons/right-arrow.svg" alt="right-arrow"> <p class="label-description">&nbsp;web design</p></a>
-         <a class="label-arrow"  href="#grdesign" target="_blank"><p class="label-description">graphic design</p> <img class="arrow" src="./images/icons/right-arrow.svg" alt="right-arrow"></a>
+         <a class="label-arrow"  href="#uxchallenge" onclick="scrollToTop()" ><img class="arrow rotate180" src="./images/icons/right-arrow.svg" alt="right-arrow"> <p class="label-description">&nbsp;ux challenge</p></a>
+         <a class="label-arrow"  href="#webdesign" onclick="scrollToTop()" ><p class="label-description">web design</p> <img class="arrow" src="./images/icons/right-arrow.svg" alt="right-arrow"></a>
         </div>
         </div>
       </section>

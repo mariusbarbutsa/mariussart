@@ -14,11 +14,11 @@ export default class GraphicDesign {
                 
                     <div class="row">
                         <div class="filter-buttons">
-                                 <button class="filter-btn alls selected" id="all" value="all" onclick="filterbyEnvironment(this.value)">show all</button>
-                                 <button class="filter-btn" id="logos" value="logos" onclick="filterbyEnvironment(this.value)">logos</button>
-                                 <button class="filter-btn" id="flyers" value="flyers" onclick="filterbyEnvironment(this.value)">flyers</button>
-                                 <button class="filter-btn" id="illustrations" value="illustrations" onclick="filterbyEnvironment(this.value)">illustrations</button>
-                                 <button class="filter-btn" id="magazines" value="magazines" onclick="filterbyEnvironment(this.value)">magazines</button>
+                                 <button class="filter-btn alls selected" id="all" value="all" onclick="filterbyCategories(this.value)">show all</button>
+                                 <button class="filter-btn" id="logos" value="logos" onclick="filterbyCategories(this.value)">logos</button>
+                                 <button class="filter-btn" id="flyers" value="flyers" onclick="filterbyCategories(this.value)">flyers</button>
+                                 <button class="filter-btn" id="illustrations" value="illustrations" onclick="filterbyCategories(this.value)">illustrations</button>
+                                 <button class="filter-btn" id="magazines" value="magazines" onclick="filterbyCategories(this.value)">magazines</button>
                         </div>
                     </div>
                     <div class="row">

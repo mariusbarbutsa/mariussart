@@ -21,13 +21,13 @@ export default class HomePage {
 
     <div class="homepage-flexbox">
       <p class="homepage-description" data-aos="fade-right">
-        My name is Marius 👋, a passionate student who moved to Denmark to
-        study Multimedia Design at the Business Academy Aarhus 👨‍💻. My
-        education, skills and experience show what am I most fit for, yet I am
+        Greetings👋! My name is Marius, a passionate student who moved to Denmark to
+        study Multimedia Design at the Business Academy Aarhus. My
+        education, skills and experience show what I am most fit for, yet I am
         open to further development, ready to undertake any training, and
-        learn new things 📖. I am a perfectionist; thus I tend to do my best
-        regardless of the challenge 💪. Besides my education, I am fond of
-        digital drawing👨‍🎨 and photography. I believe that art is the way
+        learn new things. I am a perfectionist; thus I tend to do my best
+        regardless of the challenge. Besides my education, I am fond of
+        digital drawing and photography. I believe that art is the way
         within people can manifest themselves the best;
         <i class="red changing">I create, therefore I am.</i>
       </p>
@@ -50,7 +50,7 @@ export default class HomePage {
           </p>
           <a class="label-arrow" href="#webdesign">
             <p class="label-description">my work</p>
-            <img class="arrow" src="images/icons/right-arrow.svg" alt="right-arrow" />
+            <img class="arrow-home" src="images/icons/right-arrow.svg" alt="right-arrow" />
           </a>
         </div>
       </div>
@@ -66,7 +66,7 @@ export default class HomePage {
           </p>
           <a class="label-arrow" href="#grdesign">
             <p class="label-description">my work</p>
-            <img class="arrow" src="images/icons/right-arrow.svg" alt="right-arrow" />
+            <img class="arrow-home" src="images/icons/right-arrow.svg" alt="right-arrow" />
           </a>
         </div>
       </div>
@@ -83,7 +83,7 @@ export default class HomePage {
           </p>
           <a class="label-arrow" href="#digitalart">
             <p class="label-description">my work</p>
-            <img class="arrow" src="images/icons/right-arrow.svg" alt="right-arrow" />
+            <img class="arrow-home" src="images/icons/right-arrow.svg" alt="right-arrow" />
           </a>
         </div>
       </div>
@@ -99,7 +99,7 @@ export default class HomePage {
           </p>
           <a class="label-arrow" href="#photos">
             <p class="label-description">my work</p>
-            <img class="arrow" src="images/icons/right-arrow.svg" alt="right-arrow" />
+            <img class="arrow-home" src="images/icons/right-arrow.svg" alt="right-arrow" />
           </a>
         </div>
       </div>

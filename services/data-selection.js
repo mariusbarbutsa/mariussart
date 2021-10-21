@@ -119,8 +119,8 @@ class Portfolio {
     document.querySelector(".photos").innerHTML = htmlTemplate;
   }
 
-  filterByEnvironment(value) {
-    var buttonText = document.querySelector("#showButton");
+  filterByCategories(value) {
+    let buttonText = document.querySelector("#showButton");
     const buttons = document.querySelectorAll(".filter-buttons .filter-btn");
     for (const button of buttons) {
       if (value === button.getAttribute("id")) {
@@ -135,15 +135,12 @@ class Portfolio {
       this.getPosts();
     } else {
       buttonText.style.display = "none";
-      // this.getPostsFiltered();
-      // this.posts.length = 12;
       const results = this.postsFiltered.filter(
         (post) => post.acf.type == value
       );
       if (results.length >= 12) {
         results.length = 12;
       }
-
       this.appendPosts(results);
     }
   }

@@ -11,7 +11,7 @@ export default class WebDesign {
       <div class="webdesign-flexbox">
         <div class="webdesign-subflexbox" data-aos="fade-left">
           <p data-fill="01" class="numbering">01</p>
-          <a class="project-image5" href="#webapp" target="_blank">
+          <a class="project-image5" href="#webapp" onclick="scrollToTop()">
             <div class="overlay">
               <div class="project-textbox">
                 <p class="project-header">Web Application Exam: Selfly</p>
@@ -29,7 +29,7 @@ export default class WebDesign {
       <div class="webdesign-flexbox">
         <div class="webdesign-subflexbox" data-aos="fade-left">
           <p data-fill="02" class="numbering">02</p>
-          <a class="project-image4" href="#frontloberne" target="_blank">
+          <a class="project-image4" href="#frontloberne" onclick="scrollToTop()">
             <div class="overlay">
               <div class="project-textbox">
                 <p class="project-header">Group Exam Project: Frontløberne</p>
@@ -49,7 +49,7 @@ export default class WebDesign {
 
         <div class="webdesign-subflexbox" data-aos="fade-left">
           <p data-fill="03" class="numbering">03</p>
-          <a class="project-image3" href="#uxui" target="_blank">
+          <a class="project-image3" href="#uxui" onclick="scrollToTop()">
             <div class="overlay">
               <div class="project-textbox">
                 <p class="project-header">
@@ -69,7 +69,7 @@ export default class WebDesign {
 
         <div class="webdesign-subflexbox" data-aos="fade-left">
           <p data-fill="04" class="numbering">04</p>
-          <a class="project-image2" href="#uxchallenge" target="_blank">
+          <a class="project-image2" href="#uxchallenge" onclick="scrollToTop()">
             <div class="overlay">
               <div class="project-textbox">
                 <p class="project-header">
@@ -89,7 +89,7 @@ export default class WebDesign {
 
         <div class="webdesign-subflexbox" data-aos="fade-left">
           <p data-fill="05" class="numbering">05</p>
-          <a class="project-image" href="#sleepbuds" target="_blank">
+          <a class="project-image" href="#sleepbuds" onclick="scrollToTop()">
             <div class="overlay">
               <div class="project-textbox">
                 <p class="project-header">

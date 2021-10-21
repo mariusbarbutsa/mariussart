@@ -57,16 +57,16 @@ window.scrollUpButton = function () {
   // When the user clicks on the button, scroll to the top of the document
 };
 
-window.filterbyEnvironment = function (value) {
-  portfolio.filterByEnvironment(value);
+scrollUpButton();
+
+window.filterbyCategories = function (value) {
+  portfolio.filterByCategories(value);
 };
 
 window.topFunction = function () {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 };
-
-scrollUpButton();
 
 window.hamburgerMenu = function () {
   const hamburger = document.querySelector(".hamburger");
@@ -106,8 +106,8 @@ window.cursor = function () {
   const hover = document.querySelectorAll("a, button");
   document.addEventListener("mousemove", cursor2);
   function cursor2(e) {
-    cursor.style.left = e.pageX + "px";
-    cursor.style.top = e.pageY + "px";
+    cursor.style.left = e.clientX + "px";
+    cursor.style.top = e.clientY + "px";
   }
   for (const item of hover) {
     item.addEventListener("mouseover", function () {
@@ -124,3 +124,12 @@ window.cursor = function () {
   }
 };
 cursor();
+
+// window.onload = function () {
+//   let loader = document.querySelector("#loader");
+//   loader.classList.remove("hide");
+// };
+
+window.scrollToTop = function () {
+  window.scrollTo(0, 0);
+};

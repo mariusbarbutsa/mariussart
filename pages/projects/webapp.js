@@ -13,7 +13,7 @@ export default class WebApp {
               <img class="project-illustration" src="./images/icons/m-illustration.svg" alt="illustration">
               <p class="project-label">It is normal to have your feelings fluctuate throughout the day - we are humans after all. But what's important is the way we cope with emotional burdens or bad days. Sometimes we just lack ideas of how we can care for ourselves. This is where Selfly, our self-care mobile app, can be a useful tool to support and help people to find new ways to boost their well-being. </p>
             </div>
-            <img class="project-gif" src="./images/wallpaper-convergence.jpg" alt="project gif">
+            <img class="project-gif" src="./images/project/design/webapp/selfly.gif" alt="project gif">
        </div>
       
 
@@ -35,13 +35,11 @@ export default class WebApp {
              use it, all of that is due to the use of pastel colors, soft/rounded shapes and
              wise use of tone of voice.</p>
             </div>
-            <div class="projects-design">
-            <div class="projects-design-row" data-aos="zoom-in-right">
+            <div class="projects-design" data-aos="zoom-in">
+            <div class="projects-multipics">
             <img class="project-image-04" src="./images/project/design/webapp/webapp-mobile-01.jpg" alt="mockup">
             <img class="project-image-04" src="./images/project/design/webapp/webapp-mobile-02.jpg" alt="mockup">
             <img class="project-image-04" src="./images/project/design/webapp/webapp-mobile-03.jpg" alt="mockup">
-            </div>
-            <div div div class = "projects-design-row" data-aos="zoom-in-left">
             <img class="project-image-04" src="./images/project/design/webapp/webapp-mobile-04.jpg" alt="mockup">
             <img class="project-image-04" src="./images/project/design/webapp/webapp-mobile-05.jpg" alt="mockup">
             <img class="project-image-04" src="./images/project/design/webapp/webapp-mobile-06.jpg" alt="mockup">
@@ -52,13 +50,13 @@ export default class WebApp {
              <p class="project-info">Even though everything looks smooth, it was challenging to put
 the logic behind it together and apply it in our code, but it was thrilling to
 see it working properly.</p>
-             <p class="links"><a target="_blank" class="red" href="https://xd.adobe.com/view/76f7e71e-c1cc-4f57-84be-0f39863c1f7b-23a4/?fullscreen&hints=off">ADOBE XD MOCKUPS</a> / <a target="_blank" class="red" href="./prototype/SelfCare-APP/index.html">WORKING PROTOTYPE</a> / <a target="_blank" class="red" href="https://github.com/mariusbarbutsa/SelfCare-APP">GITHUB REPO</a></p>
+             <p class="links"><a target="_blank" class="red" href="https://xd.adobe.com/view/76f7e71e-c1cc-4f57-84be-0f39863c1f7b-23a4/?fullscreen&hints=off">ADOBE XD MOCKUPS</a> / <a target="_blank" class="red" href="http://selfly.mariussart.com/#/">WORKING PROTOTYPE</a> / <a target="_blank" class="red" href="https://github.com/mariusbarbutsa/SelfCare-APP">GITHUB REPO</a></p>
              </div>
     
 
         <div class="navigation-arrows">
-         <a class="label-arrow" target="_blank" href="#webdesign"><img class="arrow rotate180" src="./images/icons/right-arrow.svg" alt="right-arrow"> <p class="label-description">&nbsp;web design</p></a>
-         <a class="label-arrow" target="_blank" href="#grdesign"><p class="label-description">graphic design</p> <img class="arrow" src="./images/icons/right-arrow.svg" alt="right-arrow"></a>
+         <a class="label-arrow" href="#webdesign" onclick="scrollToTop()"><img class="arrow rotate180" src="./images/icons/right-arrow.svg" alt="right-arrow"> <p class="label-description">web design</p></a>
+         <a class="label-arrow" href="#frontloberne" onclick="scrollToTop()"><p class="label-description">frontloberne</p> <img class="arrow" src="./images/icons/right-arrow.svg" alt="right-arrow"></a>
         </div>
         </div>
       </section>
