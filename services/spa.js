@@ -45,7 +45,6 @@ class SpaService {
       `${pageId}` == "webapp"
     ) {
       projectActive.classList.add("active");
-      scrollTo(0, 0);
     }
   }
 

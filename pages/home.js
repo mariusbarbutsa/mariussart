@@ -6,7 +6,11 @@ export default class HomePage {
   template() {
     document.querySelector("#app").innerHTML += /*html*/ `
     <section id="home" class="page">
-    <div class="homepage-wallpaper"></div>
+    <div >
+      <video autoplay loop muted playsinline class="homepage-wallpaper">
+       <source src="images/gradient-animation-03.mp4" type="video/mp4">
+      </video>
+    </div>
     <div class="homepage-tags">
       <p data-fill="WEB DESIGN." class="homepage-bluetag">WEB DESIGN.</p>
        <p data-fill="GRAPHIC DESIGN." class="homepage-bluetag">

@@ -5,8 +5,8 @@ export default class NavBar {
 
   template() {
     document.querySelector("#app").innerHTML += /*html*/ `
-       <nav class = "navbar">
-      <a href = "#home" class="nav-logo" > <img class="logo_mariussart"
+       <nav class = "navbar" >
+      <a href ="#home"  onclick="scrollToTop()" class="nav-logo"> <img class="logo_mariussart"
       alt = "logo"
           src="images/mariussart_logotype_red.svg" /></a>
       <div class="nav-menu">
