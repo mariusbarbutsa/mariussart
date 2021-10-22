@@ -7,7 +7,7 @@ export default class HomePage {
     document.querySelector("#app").innerHTML += /*html*/ `
     <section id="home" class="page">
     <div >
-      <video autoplay loop muted playsinline class="homepage-wallpaper">
+      <video autoplay loop muted playsinline class="homepage-wallpaper" poster="images/gradient-animation-03.jpg">
        <source src="images/gradient-animation-04.webm" type="video/webm">
       </video>
     </div>
