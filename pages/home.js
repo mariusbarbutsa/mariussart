@@ -8,7 +8,7 @@ export default class HomePage {
     <section id="home" class="page">
     <div >
       <video autoplay loop muted playsinline class="homepage-wallpaper">
-       <source src="images/gradient-animation-03.mp4" type="video/mp4">
+       <source src="images/gradient-animation-04.webm" type="video/webm">
       </video>
     </div>
     <div class="homepage-tags">

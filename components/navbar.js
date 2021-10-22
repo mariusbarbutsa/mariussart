@@ -6,12 +6,12 @@ export default class NavBar {
   template() {
     document.querySelector("#app").innerHTML += /*html*/ `
        <nav class = "navbar" >
-      <a href ="#home"  onclick="scrollToTop()" class="nav-logo"> <img class="logo_mariussart"
+      <a href ="#home" onclick="scrollToTop()" class="nav-logo"> <img class="logo_mariussart"
       alt = "logo"
           src="images/mariussart_logotype_red.svg" /></a>
       <div class="nav-menu">
         <li class="nav-item">
-          <a href="#home" class="nav-link active">homepage</a>
+          <a href="#home" onclick="scrollToTop()" class="nav-link active">homepage</a>
         </li>
         <li class="nav-item">
           <a href="#webdesign" id="projects-active" class="nav-link">web design</a>
@@ -37,13 +37,4 @@ export default class NavBar {
     </nav>
     `;
   }
-}
-
-{
-  /* <nav class="tabbar">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#clients">Clients</a>
-          <a href="#contact">Contact</a>
-        </nav> */
 }

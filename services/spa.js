@@ -51,6 +51,7 @@ class SpaService {
   // navigate to a new view/page by changing href
   navigateTo(pageId) {
     window.location.href = `#${pageId}`;
+    window.scrollTo(0, 0);
   }
 
   // set default page or given page by the hash url
@@ -61,16 +62,6 @@ class SpaService {
       page = window.location.hash.slice(1);
     }
     this.showPage(page);
-  }
-
-  // show and hide tabbar
-  hideTabbar(hide) {
-    let tabbar = document.querySelector("#tabbar");
-    if (hide) {
-      tabbar.classList.add("hide");
-    } else {
-      tabbar.classList.remove("hide");
-    }
   }
 }
 
